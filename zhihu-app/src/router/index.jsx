@@ -14,7 +14,7 @@ import routes from './routes';
 const Element = function Element(props) {
   let { component: Component, meta } = props;
   // 修改页面title
-  let { title = '知乎日报' } = meta || {};
+  let { title = '知乎日报1' } = meta || {};
   document.title = title;
   // 获取路由信息，基于属性传递给组件
   const navigate = useNavigate(),
