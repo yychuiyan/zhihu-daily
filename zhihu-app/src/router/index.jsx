@@ -8,6 +8,7 @@ import {
   useSearchParams,
 } from 'react-router-dom';
 import routes from './routes';
+import { Mask, DotLoading } from 'antd-mobile';
 
 // 统一渲染路由配置
 
@@ -26,7 +27,13 @@ const Element = function Element(props) {
 
 export default function RouterView() {
   return (
-    <Suspense fallback={<></>}>
+    <Suspense
+      fallback={
+        <Mask visible={true}>
+          <DotLoading color="white" />
+        </Mask>
+      }
+    >
       <Routes>
         {routes.map(item => {
           let { name, path } = item;

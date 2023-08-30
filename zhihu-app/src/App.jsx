@@ -1,8 +1,13 @@
 import React from 'react';
-
+import { HashRouter } from 'react-router-dom';
+import RouterView from './router';
 // 页面入口
 const App = () => {
-  return <div>入口文件</div>;
+  return (
+    <HashRouter>
+      <RouterView />
+    </HashRouter>
+  );
 };
 
 export default App;
