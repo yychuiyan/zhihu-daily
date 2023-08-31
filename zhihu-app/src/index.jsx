@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// REDUX
+import { Provider } from 'react-redux'
+import store from './store';
 // Antd-Mobile
 import { ConfigProvider } from 'antd-mobile';
 import enUS from 'antd-mobile/es/locales/en-US';
@@ -28,6 +31,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // 程序打包入口
 root.render(
   <ConfigProvider locale={enUS}>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </ConfigProvider>
 );
