@@ -2731,7 +2731,7 @@ ansi-styles@^5.0.0:
 
 antd-mobile-icons@^0.3.0:
   version "0.3.0"
-  resolved "https://registry.npmmirror.com/antd-mobile-icons/-/antd-mobile-icons-0.3.0.tgz"
+  resolved "https://registry.npmmirror.com/antd-mobile-icons/-/antd-mobile-icons-0.3.0.tgz#9b29e4588a62370909061f10ff0579aabb0b32a9"
   integrity sha512-rqINQpJWZWrva9moCd1Ye695MZYWmqLPE+bY8d2xLRy7iSQwPsinCdZYjpUPp2zL/LnKYSyXxP2ut2A+DC+whQ==
 
 antd-mobile-v5-count@^1.0.1:

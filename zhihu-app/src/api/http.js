@@ -13,9 +13,9 @@
  http.post/put/patch([url],[body],[config])  预先指定了配置项中的url/method/body
  */
 
-import _ from '@/utils/utils';
+import _ from '../assets/utils';
 import qs from 'qs';
-import utils from '@/utils/utils';
+import utils from '../assets/utils';
 import { Toast } from 'antd-mobile';
 
 /* 核心方法 */

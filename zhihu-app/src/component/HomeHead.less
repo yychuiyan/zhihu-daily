@@ -1,0 +1,42 @@
+.home_head_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px 30px;
+  .picture{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .info{
+    display: flex;
+    align-items: center;
+    .title{
+      height: 64px;
+      line-height: 64px;
+      padding-left: 24px;
+      font-size: 40px;
+      border-left: 2px solid #eee;
+    }
+    .time{
+      height: 70px;
+      padding-right: 30px;
+      span{
+        display: block;
+        text-align: center;
+        line-height: 35px;
+        font-size: 24px;
+        &:nth-child(1){
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

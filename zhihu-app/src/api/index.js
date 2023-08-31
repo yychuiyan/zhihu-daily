@@ -2,7 +2,7 @@ import http from "./http";
 
 // 获取进入新闻信息&轮播图信息
 const queryNewsLatest = () => {
-  return http.get('/api/news_latest');
+  return http.get('/news_latest');
 }
 // 获取往日新闻信息
 const queryNewsBefore = (time) => {
