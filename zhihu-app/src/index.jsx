@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 // REDUX
 import { Provider } from 'react-redux'
 import store from './store';
-// Antd-Mobile
+// Antd-Mobile 国际化
 import { ConfigProvider } from 'antd-mobile';
 import enUS from 'antd-mobile/es/locales/en-US';
  // rem转换
